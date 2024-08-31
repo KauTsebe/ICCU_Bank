@@ -14,7 +14,7 @@ import joblib
 from sklearn.preprocessing import StandardScaler
 
 # Load the trained model
-model = joblib.load('iccu_bank_credit.pkl')
+model = joblib.load('random_forest_model.pkl')
 
 # Function to preprocess user input
 def preprocess_input(data):
